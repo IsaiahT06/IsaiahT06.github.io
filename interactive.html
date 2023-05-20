@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <h1>Hello, world!</h1>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script>
+    //Hello Java
+    console.log("Hello Java")
+
+    function myalert(){
+        alert("Warning this is an alert")
+    }
+
+    
+    function postalert(){
+        let msg = document.querySelector("#msg-input").value
+        alert(msg)
+    }
+</script>
+<div class="container">
+
+<button onclick="myalert()" class="btn btn-primary">Primary</button>
+
+</div>
+
+<div class="container bg-light m-5 p-5">
+    <h5>Make an alert!</h5>
+    <div class="input-group bg-light">
+     <input id="msg-input" type="text" class="form-control" placeholder="Enter a messgae">
+       <button class="btn btn-secondary" onclick="postalert()" type="button">Post</button>
+
+</div>
+
+</body>
+</html>
